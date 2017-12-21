@@ -238,7 +238,6 @@ ul > .menuList:last-child {
 }
 
 .boxes {
-    display: inline-block;
     float: left;
     border: 2px solid black;
     height: 500px;
@@ -250,7 +249,6 @@ ul > .menuList:last-child {
 }
 
 .box1 {
-    display: inline-block;
     float: left;
     border: 2px solid #3dd0b6;
     height: 500px;
