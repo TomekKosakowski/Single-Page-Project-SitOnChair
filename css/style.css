@@ -38,22 +38,17 @@ nav {
 
 .submenu {
     position: absolute;
-    width: 150px;
-    right: 10px;
+    width: 130px;
     padding-top: 10px;
-    display: none;
-    line-height: 30px;
+    line-height: 5px;
     text-align: left;
+    display: none;
 }
 
 .menuList {
     font-weight: bold;
     text-align: right;
     position: relative;
-}
-
-li:hover>.submenu {
-    display:block;
 }
 
 .submenu::before {
@@ -68,12 +63,12 @@ li:hover>.submenu {
     width: 0;
     margin: 0 auto;
     top: -10px;
-    left: 70px;
+    left: 62px;
 }
 
 .submenu li {
     background-color: black;
-    padding: 5px;
+    padding: 15px;
 }
 
 ul > .menuList:last-child {
@@ -100,6 +95,8 @@ ul > .menuList:last-child {
     margin-left: 5%;
     margin-top: 200px;
     position: absolute;
+    text-decoration: none;
+    z-index: 1;
 }
 
 .position {
@@ -107,12 +104,12 @@ ul > .menuList:last-child {
 }
 
 .arrowRight {
-    display: inline-block;
     font-size: 65px;
     color: #3dd0b6;
     margin-top: 200px;
     margin-left: 90%;
     position: absolute;
+    text-decoration: none;
 }
 
 .sectionTitle {
@@ -191,17 +188,6 @@ ul > .menuList:last-child {
     width: 32%;
     margin-right: 2%;
     position: relative;
-}
-
-.baby {
-    display: inline-block;
-    background-color: rgba(255,255,255,.3);
-    height: 50px;
-    width: 100%;
-    position: absolute;
-    margin-top: -70px;
-    padding: 10px;
-    color: #3f3f3f;
 }
 
 .margarita {
