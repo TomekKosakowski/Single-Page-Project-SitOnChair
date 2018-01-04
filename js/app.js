@@ -49,11 +49,37 @@ firstChair.addEventListener('mouseover', function (event) {
     });
 
 
+var counter = 0;
+var prevPicture = document.querySelector('.arrowLeft');
+var nextPicture = document.querySelector('.arrowRight');
+var slider = document.querySelector('.imageList');
+var images = slider.querySelectorAll('img');
 
 
+function slide (index) {
+    for (var i=0; i<images.length; i++) {
+        images[i].classList.add('hideImage');
+    }
+    images[index].classList.remove('hideImage');
+    images[index].classList.add('showImage');
+}
+slide(counter);
 
+nextPicture.addEventListener('click', function () {
+    if (counter < images.length-1) {
+        counter += 1;
+    } else {
+        counter = 0;
+    }
+    slide(counter);
+});
 
-
-
-
+    prevPicture.addEventListener('click', function () {
+        if (counter > 0) {
+            counter -= 1;
+        } else {
+            counter = images.length-1;
+        }
+        slide(counter);
+    })
 });

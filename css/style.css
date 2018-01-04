@@ -80,47 +80,63 @@ ul > .menuList:last-child {
                 -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 24%, rgba(240,240,240,1) 78%, rgba(232,232,232,1) 84%, rgba(232,232,232,1) 90%, rgba(219,219,219,1) 100%);
 }
 
+
 .blackChair {
     display: inline-block;
-    height: 430px;
-    padding: 0;
-    position: relative;
-    width: 50%;
+    width: 45%;
     margin-top: 60px;
+    height: 500px;
 }
 
-.arrowLeft {
+.imageList {
+    width: 100%;
+}
+
+.showImage {
+    display: inline-block;
+}
+
+.hideImage {
+    display: none;
+}
+
+.arrowLeft, .arrowRight {
+    display: inline-block;
     font-size: 65px;
     color: #3dd0b6;
-    margin-left: 5%;
+    width: 5%;
     margin-top: 200px;
-    position: absolute;
-    text-decoration: none;
     z-index: 1;
+    background: transparent;
+    border: none;
+    outline: none;
 }
 
-.position {
-    position: relative;
+.arrowRight:hover, .arrowLeft:hover {
+    color: #ffff4f;
 }
 
 .arrowRight {
-    font-size: 65px;
-    color: #3dd0b6;
-    margin-top: 200px;
-    margin-left: 90%;
-    position: absolute;
-    text-decoration: none;
+    float: right;
+    margin-right: 30px;
 }
 
-.sectionTitle {
+.arrowLeft {
+    float: left;
+    padding-left: 30px;
+}
+
+#motto {
     display: inline-block;
+    width: 40%;
+    height: 400px;
+    vertical-align: top;
+}
+.sectionTitle {
     font-size: 40px;
     text-transform: uppercase;
-    width: 45%;
     text-align: center;
-    margin-left: -75px;
-    margin-top: 120px;
-    position: absolute;
+    margin-top: 100px
 }
 
 .sectionTitle > span {
@@ -129,13 +145,12 @@ ul > .menuList:last-child {
 }
 
 .description {
-    display: inline-block;
     font-size: 14px;
     font-weight: normal;
     text-transform: lowercase;
     text-align: center;
-    word-spacing: 3px;
-    padding: 40px 40px 20px 40px;
+    line-height: 22px;
+    padding: 20px 40px 50px 40px;
     color: #3f3f3f;
 }
 
@@ -147,8 +162,7 @@ ul > .menuList:last-child {
     color: white;
     font-size: 24px;
     border-radius: 10px;
-    border: none;
-    position: relative;
+    margin-left: 90px;
     text-decoration: none;
 }
 
