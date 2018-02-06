@@ -1,4 +1,7 @@
+SitOnChair
 
-Single page project - online shop with chairs - SitOnChair
+Project made by me at Coders Lab course as a workshop. 
 
-technologies used - HTML, CSS, JavaScript
+Demo : https://tomekkosakowski.github.io/Single-Page-Project-SitOnChair/
+
+Technologies used - HTML, CSS, JavaScript
